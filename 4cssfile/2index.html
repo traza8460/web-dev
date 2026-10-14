@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* element selector */
+        p {
+            color: green;
+            margin: 1px;
+            /* color: green !important; */
+            /* border: 1px solid black; */
+        }
+        .box {
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+            border: 2px solid black;
+            margin: 10px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        /* id selector */
+        #intro {
+            color:blue;
+            /* width: 200px;
+            height: 100px;
+            border: 2px solid black; */
+        }
+        p.note {
+            color: red;
+        }
+         .note {
+            color: aqua;
+            background-color: red;
+        }
+        div>p {
+            color: hotpink;
+        }
+        html     { font-size: 16px; }
+        .parent  { font-size: 16px; }
+        .em-text  { font-size: 3em; } 
+        .rem-text { font-size: 1rem; }
+        .container {
+            border: 1px solid black;
+            margin: 20px auto;
+            width: 600px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="box">This is my heading</h1>
+    <p id="intro" class="note" >This is my paragraph</p>
+    <p style="color: purple;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p class="note">This is my another paragraph </p>
+    <div>
+        <p>Child 1 </p>
+            <div>
+                <p>Child 2 </p>
+                <strong> <p>strong p</p> </strong>
+            </div>
+        <span> <p>span p</p> </span>
+    </div>
+    <p>Another paragraph</p>
+    <div class="container">
+        <div class="parent">
+            <p class="em-text">I am uisng em</p>
+            <p class="rem-text">I am uisng rem</p>
+        </div>
+    </div>
+</body>
+</html>
