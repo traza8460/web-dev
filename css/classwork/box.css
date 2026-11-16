@@ -1,0 +1,153 @@
+.box1{
+    border-radius: 10px;
+    border: 3px solid black;
+    height: 300px;
+    width: 200px;
+    position: relative;
+    top: 180px;
+    text-align: right; 
+    background-color: green;
+}
+.container1{
+    border-radius: 10px;
+    border: 3px solid black;
+    width: 400px;
+    height: 500px;
+    text-align: right;
+    background-color: red;
+}
+.box2{
+    border-radius: 10px;
+    border: 3px solid black;
+    height: 500px;
+    width: 400px;
+    position: relative;
+    top: 100px;
+    text-align: right; 
+    background-color:blue;
+}
+.name1{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left:10px;
+}
+.name2{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right:10px
+}
+.name3{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    left:10px;
+}
+.name4{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    right:10px
+}
+.box3{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    border: 3px solid black;
+    height: 500px;
+    width: 400px;
+    position: relative;
+    top: 100px;
+    text-align: right; 
+    background-color:yellow;
+}
+.box3 div {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+}
+.name5{
+    top: 10px;
+    left: 43%;
+}
+.name6{
+    top:47%;
+    right:10px;
+}
+.name7{
+    top: 47%;
+    left: 10px;
+}
+.name8{
+    bottom: 5%;
+    left: 47%;
+}
+.flex{
+    border-radius: 10px;
+    border: 3px solid black;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    text-align: center;
+    background-color: gray;
+    margin-bottom: 100px;
+}
+.item{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+.grid{
+    border-radius: 10px;
+    border: 3px solid black;
+    height: 500px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    top: 100px;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    text-align: center;
+    background-color: aqua;
+}
+.item1{
+    height: 100px;
+    width: 100px;
+    display: grid;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+h1{
+    display:inline;
+    margin:3px;
+    position: relative;
+    left:47%;
+    top: 120px;
+}
