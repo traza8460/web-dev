@@ -1,14 +1,18 @@
 div {
   width: 200px;
   height: 200px;
-  background: blue;
-  transition: width 2s, height 2s, background 2s;
+  background-color: blue;
+  transition: width 2s, height 2s, background-color 2s,  border-radius 1s ,transform 2s;
   transition-delay: 1s;
+  margin: 50px;
+  text-align: center;
 }
 div:hover{
-    width: 400px;
-    height: 200px;
-    background: green;
+    width: 350px;
+    height: 350px;
+    background-color: green;
+    border-radius: 50%;
+    transform: rotate(180deg);
 }
 #div1 {transition-timing-function: linear;}
 #div2 {transition-timing-function: ease;}
