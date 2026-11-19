@@ -1,13 +1,32 @@
 @keyframes tausif {
-    from {background-color: #fc5c7d; left: 0%; transform: rotate(0deg);border-radius: 0%;}
-    to {background-color: #f7f0ac; left: 100%; transform: rotate(360deg); border-radius: 50%;}
+    from {background-color:#03001e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+; left: 0%; transform: rotate(0deg);border-radius: 0%;}
+    to {background-color: #FC5C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+; left: 77%; transform: rotate(360deg); border-radius: 50%;}
 }
-div{
+.box1{
     height: 300px;
     width: 300px;
-    /* background-color: red; */
+    background-color: red;
     text-align: center;
     animation-name: tausif;
     animation-duration: 5s;
     position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.box2{
+    top: 80px;   
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    text-align: center;
+    animation-name: tausif;
+    animation-duration: 5s;
+    position: relative;
+    animation-timing-function: ease;
 }
