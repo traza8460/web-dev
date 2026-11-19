@@ -1,0 +1,12 @@
+@keyframes tausif {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+div{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    text-align: center;
+    animation-name: tausif;
+    animation-duration: 5s;
+}
