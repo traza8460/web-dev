@@ -8,25 +8,23 @@ background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-2
 background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 ; left: 77%; transform: rotate(360deg); border-radius: 50%;}
 }
-.box1{
+.box1, .box2{
     height: 300px;
     width: 300px;
-    background-color: red;
     text-align: center;
+    position: relative;
+    line-height: 300px;
     animation-name: tausif;
     animation-duration: 5s;
-    position: relative;
+}
+.box1{
+    background-color: red;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 .box2{
     top: 80px;   
-    height: 300px;
-    width: 300px;
     background-color: green;
-    text-align: center;
-    animation-name: tausif;
-    animation-duration: 5s;
-    position: relative;
     animation-timing-function: ease;
+    animation-iteration-count: 1;
 }
