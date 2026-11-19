@@ -1,12 +1,13 @@
 @keyframes tausif {
-    from {background-color: red;}
-    to {background-color: yellow;}
+    from {background-color: #fc5c7d; left: 0%; transform: rotate(0deg);border-radius: 0%;}
+    to {background-color: #f7f0ac; left: 100%; transform: rotate(360deg); border-radius: 50%;}
 }
 div{
     height: 300px;
     width: 300px;
-    background-color: red;
+    /* background-color: red; */
     text-align: center;
     animation-name: tausif;
     animation-duration: 5s;
+    position: relative;
 }
