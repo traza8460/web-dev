@@ -28,3 +28,6 @@ background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, F
     animation-timing-function: ease;
     animation-iteration-count: 1;
 }
+body{
+    background-color: #03001e;
+}
