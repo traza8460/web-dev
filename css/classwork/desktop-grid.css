@@ -1,0 +1,32 @@
+.card {
+      display: grid;
+      grid-template-columns:(1fr);
+      gap: 16px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+.item {
+      border: 2px solid black;
+    }
+@media (min-width: 768px) {
+  .card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 600px) {
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  .card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+body{
+    background-color: #030010;
+}
